@@ -1,0 +1,12 @@
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\app.db
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\Tarefas.deps.json
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\Tarefas.runtimeconfig.json
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\Tarefas.runtimeconfig.dev.json
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\Tarefas.dll
+C:\Workspace\aspncore2\Tarefas\bin\Debug\netcoreapp2.0\Tarefas.pdb
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\Tarefas.csproj.CoreCompileInputs.cache
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\Tarefas.AssemblyInfoInputs.cache
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\Tarefas.AssemblyInfo.cs
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\Tarefas.dll
+C:\Workspace\aspncore2\Tarefas\obj\Debug\netcoreapp2.0\Tarefas.pdb
