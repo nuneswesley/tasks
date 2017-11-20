@@ -1,14 +1,31 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Tarefas.Models;
+using Tarefas.Services;
 
 namespace Tarefas.Controllers
 {
     public class TarefasController : Controller
     {
-        //Lista de tarefas
-        public IActionResult Index()
+        ITarefaItemService _tarefaService;
+        public TarefasController(ITarefaItemService tarefaService)
         {
-            //obter os dados retornar
-            return View();
+            _tarefaService = tarefaService;
+        }
+        //Lista de tarefas
+        public async Task<IActionResult> Index()
+        {
+            //obter intens da tarefa
+            //TempTarefaItemService servico = new TempTarefaItemService();
+            //var tarefas = servico.GetItemAsync();
+            var tarefas = await _tarefaService.GetItemAsync();
+            
+            var model = new TarefaViewModel();
+            {
+                model.TarefaItens = tarefas;
+            }
+
+            return View(model);
         }
         
     }

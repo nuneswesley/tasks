@@ -4,7 +4,7 @@ namespace Tarefas.Models
 {
     public class TarefaItem
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
 
         public bool EstaCompleta { get; set; }
 

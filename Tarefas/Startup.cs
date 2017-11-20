@@ -36,6 +36,9 @@ namespace Tarefas
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
+            // Registrando Serviço
+            services.AddTransient<ITarefaItemService, TempTarefaItemService> ();
+
             services.AddMvc();
         }
 
